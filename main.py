@@ -3,6 +3,6 @@
 print('Hola Mundo')
 
 
-lista = [1, 2, 3]
-for item in lista:
-    print(item)
+lista = ['a', 'b', 'c']
+for conteo, item in enumerate(lista):
+    print(conteo,'- ', item)
